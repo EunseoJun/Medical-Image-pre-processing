@@ -1,0 +1,8 @@
+file_name = 'test'
+npz_file = os.listdir('/datasets/Synapse/' + file_name + '_vol_h5')
+txt_file = []
+
+for i in npz_file:
+    txt_file.append(i.split('.')[0]+'\n')
+    
+len(txt_file)
